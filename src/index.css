@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia:wght@400;700');
+body {
+  font-family: 'Sofia', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color:#f818ed;
+}
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.links li {
+  margin-right: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.links a:hover {
+  color: #f818ed; /* Change the color on hover */
+}
+.name{
+  font-size:30px;
+}
+input[type=text]{
+  width: 150px;
+  height: 20px;
+  font-family: 'Sofia';
+  text-align: center;
+  padding: 10px;
+}
+button{
+  font-family: 'sofia';
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.home{
+  text-align: center;
+}
+.userName{
+  color:#f818ed;
+}
+.react-name{
+  color:#61DAFB;
+}
